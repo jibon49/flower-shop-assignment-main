@@ -155,7 +155,10 @@
 }
 
 /* insta section */
-
+.instagram-section{
+    margin: 50px 90px;
+    align-items: center;
+}
 .insta-photo-container {
 
     margin: 50px 90px;
@@ -171,6 +174,7 @@
 
     width: 24%;
     object-fit: contain;
+    margin-bottom: 50px;
 
 }
 .insta-headline{
@@ -183,4 +187,29 @@
     text-align: center;
     max-width: 50%;
     margin: auto;
+}
+
+/* latest deal section */
+input{
+    padding: 15px 40px;
+}
+.get-latest-deal{
+    padding: 80px;
+    border: 200px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    margin: 20px 90px;
+    background-image: url("./flower-asset/Rectangle\ 9.png");
+    background-position: center;
+    background-size: cover;
+    max-width: 100%;
+}
+.subscribe-section{
+    
+}
+.input-box{
+    width: 50%;
+    border-radius: 5px;
+    border-style: none;
 }
