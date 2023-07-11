@@ -1,0 +1,42 @@
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.intro-section {
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    padding: 50px 200px 0px 100px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro-text {
+    max-width: 700px;
+    
+
+}
+
+.intro-heading {
+    font-size: 60px;
+    max-width: 700px;
+    color: #272727;
+}
+
+.intro-image {
+
+    width: 535px;
+    height: 655px;
+    margin-left: 50px;
+    background-position: bottom right;
+    
+    
+}
+.btn{
+    padding: 15px 40px;
+    border-radius: 5px;
+    border-style: none;
+    background: #E55473;
+    color: white;
+}
