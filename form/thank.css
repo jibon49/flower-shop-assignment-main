@@ -1,0 +1,27 @@
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("./images/background.jpg");
+}
+
+
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 24px;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #e1aeff7c;
+    border-radius: 5px;
+}
