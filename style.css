@@ -10,6 +10,7 @@
     padding: 50px 200px 0px 100px;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 .intro-text {
@@ -43,10 +44,11 @@
 }
 
 /* feature section */
-.feature-section{
+.feature-section {
     height: 100vh;
     margin-bottom: 100px;
 }
+
 .featured-flower {
     display: flex;
     flex-direction: column;
@@ -126,16 +128,17 @@
     padding: 100px;
     background: rgba(39, 39, 39, 0.05);
     margin: auto;
-    
+
 
 }
-.service-text{
+
+.service-text {
     font-size: 14px;
     color: rgba(39, 39, 39, 0.80);
 }
 
 /* Hot deal section */
-.hot-deal-section{
+.hot-deal-section {
     max-height: 50%;
     margin-top: 130px;
     display: flex;
@@ -145,7 +148,39 @@
     background: rgba(39, 39, 39, 0.05);
     border-radius: 5px;
 }
-.deal-section{
+
+.deal-section {
     max-width: 50%;
     margin-right: 100px;
+}
+
+/* insta section */
+
+.insta-photo-container {
+
+    margin: 50px 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+.insta-photo {
+
+    width: 24%;
+    object-fit: contain;
+
+}
+.insta-headline{
+    color: #272727;
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+.insta-text{
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
 }
