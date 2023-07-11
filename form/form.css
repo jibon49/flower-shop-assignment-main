@@ -16,6 +16,7 @@ main{
     text-align: center;
     background-color: #ffeadd94;
     box-shadow: 5px 5px 10px;
+    border-radius: 5px;
 
     
 
@@ -50,9 +51,13 @@ main{
        
 }
 .btn{
-    margin-top: 20px;
-    padding: 10px 20px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    border-style: none;
     cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
     background-color: #e1aeff7c;
     border-radius: 5px;
 }

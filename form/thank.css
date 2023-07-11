@@ -16,7 +16,7 @@ h1 {
 }
 
 p {
-    font-size: 24px;
+    font-size: 24px;    
 }
 .btn{
     margin-top: 20px;
@@ -24,4 +24,5 @@ p {
     cursor: pointer;
     background-color: #e1aeff7c;
     border-radius: 5px;
+    font-weight: bold;
 }
